@@ -227,6 +227,8 @@ def main(audioFileName="6.wav", w_len=2056, w_step=256, f0_min=50, f0_max=600, h
     :type verbose: int
     """
 
+    print("bae")
+
     if audioDir is not None:
         audioFilePath = audioDir + sep + audioFileName
     else:
